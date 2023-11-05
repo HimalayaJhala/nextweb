@@ -73,8 +73,9 @@
     position : absolute;
     left: 45%;
     font-size: 2.5em;
-    z-index: 0;
-}
+    z-index: 0;  
+    
+} 
 
 .pic {
     position : relative;
@@ -86,6 +87,7 @@
     z-index: 1;
  
 }
+
 
 .iphone{
     position: absolute;
@@ -117,7 +119,7 @@
 
    .pic{
     position: relative;
-    left: 6%;
+    /* left: 6%; */
     bottom : 10px;
    }
    .iphone{
@@ -145,6 +147,13 @@
     padding-bottom: 20px;
    }
    
+   .downloadResumeButton {
+    display: flex;
+    justify-content: center;
+    left : 40%;
+    width: 45%;
+    
+}
     }
 
 
@@ -178,9 +187,6 @@
            }
     }
 
-
-
-    /* Inside /styles/index.module.css */
     .buttond{
         display: flex;
         justify-content: center;
@@ -195,7 +201,7 @@
     justify-content: center;
     justify-items: center;
     align-items: center;
-    width: 10%;
+    /* width: 10%; */
     font-family: 'system-ui', serif;
     background-color: #737171; /* A green color for the download button */
     color: rgb(255, 255, 255); /* White text color */
