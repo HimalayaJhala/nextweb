@@ -73,14 +73,17 @@
     position : absolute;
     left: 45%;
     font-size: 2.5em;
+    z-index: 0;
 }
 
 .pic {
+    position : relative;
     display: flex;
     border-radius: 50%;
     align-items: center;
     margin :0 auto;
     margin-bottom:300px;
+    z-index: 1;
  
 }
 
