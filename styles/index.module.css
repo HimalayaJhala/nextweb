@@ -1,0 +1,84 @@
+/* *{  padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    background-color:white; 
+    
+    scroll-behavior: smooth;
+    transition: all 0.4s ease;
+} */
+
+.bodyContainer {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: white; 
+    scroll-behavior: smooth;
+    transition: all 0.4s ease;
+  }
+  
+
+.b1{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    perspective: -10px;
+}
+
+.heading{
+    width: 55%;
+    height: 100%;
+    justify-content: center;
+    color : rgb( 0 ,0,0,.85);
+    background-color: white;
+   /* border: 2px solid rgb(255, 0, 0); */
+
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    /* -webkit-box-flex: 1; */
+    /* flex-grow: 1; */
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    
+    font-size: 5rem;
+    line-height: 11rem;
+    letter-spacing: -0.06em;
+    text-transform: uppercase;
+    text-align: center;
+  
+}
+.we_belive{
+    font-size: 7rem;
+    letter-spacing: -0.06em;
+    line-height: 9rem;
+    font-family: 'Bodoni Moda', serif;
+}
+.future{
+    position: relative;
+    top: 5px;
+    font-size: 10rem;
+    font-family: 'Tilt Warp', sans-serif;
+}
+
+.heading1{
+    font-family: 'Bodoni Moda', serif;
+    width: 50%;
+    position : absolute;
+    left: 50%;
+    font-size: 3em;
+    height: 500px;
+}
+
+.pic {
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    margin :0 auto;
+    margin-bottom:100px;
+ 
+}
+
