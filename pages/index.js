@@ -34,7 +34,11 @@ const YourComponent = () => {
        
 <Image className={styles.pic} src="/download.jpeg" alt="profilepicture" width={500} height={500} />
        
-
+<div className={styles.buttond}>
+<a href="/path-to-your-resume.pdf" download="Your_Resume_Name.pdf" className={styles.downloadResumeButton}>
+  Download Resume
+</a>
+</div>
         <div className={styles.Firstbox}>
           <div className={styles.playerwrapper}>
           <Image  className={styles.iphone} src="/iPhone15.png" alt="phone" width={435} height={790} />
@@ -66,6 +70,7 @@ const YourComponent = () => {
           </p>
         </div>
       </div>
+       
     </div>
   );
 };
