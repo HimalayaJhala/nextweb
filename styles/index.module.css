@@ -30,7 +30,7 @@
     justify-content: space-between ;
 }
 
-.playerwrapper1{
+.playerwrapper{
     display: none;
 }
 .heading{
@@ -100,10 +100,10 @@
     position: absolute;
     z-index: 1;
 }
-.playerwrapper{
+/* .playerwrapper{
     position: relative;
     display: block;
-}
+} */
 
 .centre{
     margin-left: auto;
@@ -152,9 +152,7 @@
 }
 
    .pic{
-    position: relative;
-   
-     
+    position: relative;  
     /* bottom : 10px; */
     width: 350px;
     height: 350px;
@@ -165,8 +163,8 @@
    
    }
 
-   .playerwrapper{
-    display: none;
+   .playerwrapper1{
+    display: block;
    }
    
 
