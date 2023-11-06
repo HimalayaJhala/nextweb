@@ -288,7 +288,7 @@
     flex-direction: column;
     -webkit-box-pack: center;
     
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 9rem;
     letter-spacing: -0.06em;
     text-transform: uppercase;
@@ -296,7 +296,7 @@
   
 }
 .we_belive{
-    font-size: 5rem;
+    font-size: 4rem;
     letter-spacing: -0.06em;
     line-height: 7rem;
     font-family: 'Bodoni Moda', serif;
@@ -306,7 +306,7 @@
 .future{
     position: relative;
     top: 5px;
-    font-size: 8rem;
+    font-size: 7rem;
     font-family: 'Tilt Warp', sans-serif;
 }
 
