@@ -162,18 +162,8 @@
    
    }
 
-   .Firstbox{
-   display: none;
-   
-
-   }
    .playerwrapper{
-    position: relative;
-    justify-items: center;
-    /* left: 10%; */
-    display: block;
-    width: 400px;
-    height: 650px;
+    display: none;
    }
    
 
@@ -246,7 +236,7 @@
    }
 
   .para {
-    left: 20%;
+   
     position:absolute;
    
     justify-items: center;

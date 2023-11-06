@@ -1,4 +1,4 @@
-// CustomComponent.js
+
 import React, { useState, useEffect } from 'react';
 import styles from '/styles/index.module.css';
 import style from '/styles/social.module.css';
@@ -93,6 +93,37 @@ const YourComponent = () => {
               </div>
             )}
           </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           <div className={styles.para}>
           <p className={styles.heading1}>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard
