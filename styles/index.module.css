@@ -30,6 +30,9 @@
     justify-content: space-between ;
 }
 
+.playerwrapper1{
+    display: none;
+}
 .heading{
     width: 55%;
     height: auto;
@@ -238,13 +241,14 @@
   .para {
    
     position:absolute;
-   
+  
     justify-items: center;
    
     width: 100%;
     justify-content: center;
 
     margin: 0 auto;
+    margin-top : 600px;
   }
 
  /* mobile */

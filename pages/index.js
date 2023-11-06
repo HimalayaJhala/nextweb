@@ -78,13 +78,12 @@ const YourComponent = () => {
           <div className={styles.playerwrapper}>
           <Image  className={styles.iphone} src="/iPhone15.png" alt="phone" width={435} height={790} />
             {isClient && (
-               <div  style={{ width :'445px',height :'780px' , position: 'relative',   zIndex: 0,   overflow: 'hidden' ,   top : '37px' }}>    
+               <div  style={{ width :'445px',height :'780px' , position: 'relative',   zIndex: 0,   overflow: 'hidden' ,   top : '37px' ,   borderradius: '150px' }}>    
                 <ReactPlayer
                   className="react-player"
                   url="/Screen1.mp4"
                   width="435px"
                   height="720px"
-             
                   playing={true}
                   loop={true}
                   controls={false}
@@ -99,27 +98,25 @@ const YourComponent = () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+          <div className={styles.playerwrapper1}>
+          <Image  className={styles.iphone} src="/iPhone15.png" alt="phone" width={365} height={670} />
+            {isClient && (
+                <div  style={{  width :'370px',height :'620px', position: 'relative',    overflow: 'hidden' ,   top : '32px' , borderradius: '1500px' }}>    
+                <ReactPlayer
+                  className="react-player"
+                  url="/Screen1.mp4"
+                  width="365px"
+                  height="610px"
+                  playing={true}
+                  loop={true}
+                  controls={false}
+                  muted={true}
+                  style={{borderRadius: '10px'}}
+                
+                />
+               </div>
+            )}
+          </div>
 
 
 
