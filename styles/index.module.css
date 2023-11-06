@@ -35,7 +35,6 @@
     color : rgb( 0 ,0,0,.85);
     background-color: white;
    /* border: 2px solid rgb(255, 0, 0); */
-
     padding-top: 80px;
     padding-bottom: 80px;
     margin-left: auto;
@@ -74,9 +73,11 @@
     left: 45%;
     font-size: 2.5em;
     z-index: 0;  
-    
 } 
-
+.centrepic{
+    position: relative;
+    left: 10%;
+}
 .pic {
     position : relative;
     display: flex;
@@ -85,9 +86,7 @@
     margin :0 auto;
     margin-bottom:100px;
     z-index: 1;
- 
 }
-
 
 .iphone{
     position: absolute;
@@ -99,7 +98,25 @@
     display: block;
 }
 
+.centre{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
  @media (max-width: 768px) { /*mobile */
+    .centrepic{
+        position: relative;
+        left: 20%;
+    }
+    
    .heading{
     width: 20%;
     height: 50%;
@@ -119,8 +136,12 @@
 
    .pic{
     position: relative;
-    /* left: 6%; */
-    bottom : 10px;
+   
+     left: 20%; 
+    /* bottom : 10px; */
+    width: 350px;
+    height: 350px;
+   
    }
    .iphone{
     position: absolute;
@@ -150,10 +171,67 @@
    .downloadResumeButton {
     display: flex;
     justify-content: center;
-    left : 40%;
+    left : auto;
     width: 45%;
     
 }
+
+.social{
+    
+        display: flex;
+        justify-content: space-around;
+        max-width: 300px;
+        padding-left: auto;
+        padding-right: auto;
+}
+
+
+.socialc{
+    position: relative;
+    padding-left: auto;
+    padding-right: auto;
+    left: 20%;
+}
+
+
+.downloadResumeButton {
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    padding: 20px 25px;
+    position: absolute;
+    left : 40%;
+    border-radius: 25px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    /* width: 10%; */
+    font-family: 'system-ui', serif;
+    background-color: #737171; /* A green color for the download button */
+    color: rgb(255, 255, 255); /* White text color */
+    text-decoration: none;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    /* Adjust as needed */
+    transition: background-color 0.5s;
+    /* Add a box shadow for a subtle 3D effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   animation: blink 1.5s infinite ;
+  }
+
+
+
+
+
+
+
+
+
+
+
     }
 
 
@@ -185,14 +263,23 @@
             left: 0%;
             display: block;
            }
+
+
     }
+
+
+
+
+
 
     .buttond{
         display: flex;
         justify-content: center;
         height: 100px;
-        padding-bottom: 300px;
+        padding-bottom: 50px;
+        left: auto;
     }
+
 .downloadResumeButton {
     /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
     padding: 20px 25px;
@@ -217,7 +304,7 @@
     transition: background-color 0.5s;
     /* Add a box shadow for a subtle 3D effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    animation: blink 1.5s infinite;
+   animation: blink 1.5s infinite ;
   }
 
 
@@ -234,5 +321,22 @@
   .downloadResumeButton:hover, .downloadResumeButton:focus {
     background-color: #000000; /* A darker green color for the hover/focus state */
     outline: none; /* Remove outline on focus for a cleaner look */
+    animation:none ;
   }
   
+
+
+
+  .social{
+    display: flex;
+    justify-content: space-around;
+    max-width: 500px;
+   
+    margin-left: auto;
+    margin-right: auto;
+
+
+    padding-bottom: 200px;
+}
+
+

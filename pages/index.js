@@ -1,6 +1,7 @@
 // CustomComponent.js
 import React, { useState, useEffect } from 'react';
 import styles from '/styles/index.module.css';
+import style from '/styles/social.module.css';
 import Image from 'next/image';
 import Head from 'next/head';
 import ReactPlayer from 'react-player';
@@ -12,17 +13,16 @@ const YourComponent = () => {
     setIsClient(true);
   }, []);
 
-  
-
   return (
     <div className={styles.bodyContainer}>
+         <div className={styles.scrollBehavior}>
       <Head>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap" rel="stylesheet" />
       </Head>
 
-      <div className={styles.scrollBehavior}>
+     
         <div className={styles.b1}>
           <div className={styles.heading}>
             <h1 className={styles.we_belive}>
@@ -31,14 +31,49 @@ const YourComponent = () => {
           </div>
         </div>
 
-       
+<div className={style.centerpic}>
 <Image className={styles.pic} src="/download.jpeg" alt="profilepicture" width={500} height={500} />
-       
+</div>
+
+      
 <div className={styles.buttond}>
 <a href="/path-to-your-resume.pdf" download="Your_Resume_Name.pdf" className={styles.downloadResumeButton}>
   Download Resume
 </a>
 </div>
+
+
+
+<div className={styles.socialc}>
+<div className={styles.social}>
+
+
+<div className={styles.socials1}>
+    <a href="https://www.linkedin.com/in/himalaya-jhala-879542231/">
+     <Image src="/linkedin.png" alt="leetcode" width={50} height={50} />
+    </a>
+</div>
+
+<div className={styles.socials2}>
+<a href="https://leetcode.com/HimalayaJhala/">
+  <Image src="/leetcode.png" alt="leetcode" width={50} height={50} />
+</a>
+</div>
+
+<div className={styles.socials3}>
+<a href="https://github.com/HimalayaJhala">
+  <Image src="/github.png" alt="leetcode" width={50} height={50} />
+</a>
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
         <div className={styles.Firstbox}>
           <div className={styles.playerwrapper}>
           <Image  className={styles.iphone} src="/iPhone15.png" alt="phone" width={435} height={790} />
@@ -57,9 +92,6 @@ const YourComponent = () => {
               </div>
             )}
           </div>
-          
-            
-          
           <p className={styles.heading1}>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard
             dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
