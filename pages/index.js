@@ -72,6 +72,34 @@ const YourComponent = () => {
         </div>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <div className={styles.Firstbox}>
           <div className={styles.playerwrapper}>
             <Image className={styles.iphone} src="/iPhone15.png" alt="phone" width={435} height={790} />
@@ -134,7 +162,7 @@ const YourComponent = () => {
                 className={styles.reactplayer1}
                 url="/Recording.mp4"
                 width="960px"
-                height="762px"
+                height="764px"
                 playing={true}
                 loop={true}
                 controls={false}
@@ -178,6 +206,8 @@ const YourComponent = () => {
         </div>
 
       </div>
+
+      
     </div>
 
 
