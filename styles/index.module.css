@@ -85,6 +85,12 @@
 .para{
     width: 100%;
 }
+
+.para1{
+    position: absolute;
+    margin-top: -300px;
+   
+}
 .centrepic{
     position: relative;
     left: 10%;
@@ -118,6 +124,11 @@
     margin: 300px auto;
     display: flex;
     justify-content: center;
+}
+
+
+.laptopdiv1{
+    display: none;
 }
 .laptop1{
 position: absolute;
@@ -289,7 +300,7 @@ font-size: 0.8em;
    position: relative;
    justify-items: center;
    justify-content: auto;
-   top : 100px;
+   /* top : 100px; */
    font-size: 1.65em;
    }
 
