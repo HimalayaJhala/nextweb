@@ -270,6 +270,19 @@ font-size: 0.8em;
 
  /* mobile */
 
+ .para1{
+    position:absolute;
+    justify-items: center;
+   
+    width: 100%;
+    justify-content: center;
+
+    margin: 0 auto;
+    margin-top : 100px;
+
+font-size: 0.8em;
+ }
+
 
 
 .b1{
@@ -339,7 +352,7 @@ font-size: 0.8em;
 
 
 .laptopdiv1{
-    margin-top: 300px auto;
+    margin-top: 400px ;
     display: flex;
     justify-content: center;
 }
@@ -351,7 +364,7 @@ font-size: 0.8em;
 
 .reactplayer2{
   position:relative;
-  top: 18px;
+  top: 25px;
 
 }
 

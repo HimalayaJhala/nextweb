@@ -147,7 +147,7 @@ const YourComponent = () => {
 
 
                <div className={styles.laptopdiv1}>
-         <Image className={styles.laptop1} src="/macbookp.png" alt="laptop" width={364} height={222} />
+         <Image className={styles.laptop1} src="/macbookp.png" alt="laptop" width={384} height={242} />
          {isClient && (
                 <div  style={{
                  }}>    
@@ -155,8 +155,8 @@ const YourComponent = () => {
           
                   className={styles.reactplayer2}
                   url="/Recording.mp4"
-                  width="369px"
-                  height="179px"
+                  width="379px"
+                  height="189px"
                   playing={true}
                   loop={true}
                   controls={false}
@@ -167,6 +167,18 @@ const YourComponent = () => {
                </div>
               )}
                </div>
+
+
+               <div className={styles.para1}>
+          <p className={styles.heading2}>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard
+            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+            specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
+            versions of Lorem Ipsum.
+          </p>
+          </div>
 
 
 
