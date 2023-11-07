@@ -23,6 +23,8 @@
     align-items: center;
     justify-content: center; 
     perspective: -10px;
+
+
 }
 
 .Firstbox{
@@ -78,6 +80,7 @@
     display: flex;
     position : relative;
     font-size: 2.5em;
+    
 } 
 .para{
     width: 100%;
@@ -109,6 +112,19 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+
+.laptopdiv{
+    margin: 300px auto;
+    display: flex;
+    justify-content: center;
+}
+.laptop1{
+position: absolute;
+}
+
+
+
 
 
 
@@ -229,17 +245,18 @@
 
 
   .heading1{
+  
     width: 100%;
    position: relative;
    justify-items: center;
    justify-content: auto;
    top : 100px;
+   font-size: 1.65em;
    }
 
   .para {
    
     position:absolute;
-  
     justify-items: center;
    
     width: 100%;
@@ -247,6 +264,8 @@
 
     margin: 0 auto;
     margin-top : 600px;
+
+font-size: 0.8em;
   }
 
  /* mobile */
@@ -312,6 +331,30 @@
     width :345px;
     height :680px;
 }
+
+
+.laptop{
+    display: none;
+}
+
+
+.laptopdiv1{
+    margin-top: 300px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.reactplayer1{
+    margin-top: 100 auto;
+    display: none;
+}
+
+.reactplayer2{
+  position:relative;
+  top: 18px;
+
+}
+
     }
 
 
@@ -346,6 +389,7 @@
          
             }
         .heading1{
+          
             width: 60%;
             justify-content: center;
             left: 54%;

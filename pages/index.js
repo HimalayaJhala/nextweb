@@ -71,8 +71,6 @@ const YourComponent = () => {
 </div>
 
 
-
-
 </div>
         <div className={styles.Firstbox}>
           <div className={styles.playerwrapper}>
@@ -94,10 +92,6 @@ const YourComponent = () => {
           </div>
 
 
-
-
-
-
           <div className={styles.playerwrapper1}>
           <Image  className={styles.iphone} src="/iPhone15.png" alt="phone" width={365} height={670} />
             {isClient && (
@@ -111,14 +105,12 @@ const YourComponent = () => {
                   loop={true}
                   controls={false}
                   muted={true}
-                  style={{borderRadius: '10px'}}
+                  style={{borderRadius: '100px'}}
                 
                 />
                </div>
             )}
           </div>
-
-
 
 
           <div className={styles.para}>
@@ -132,9 +124,56 @@ const YourComponent = () => {
           </p>
           </div>
         </div>
-      </div>
-       
-   
+     
+
+      <div className={styles.laptopdiv}>
+         <Image className={styles.laptop} src="/macbookp.png" alt="laptop" width={1284} height={792} />
+         {isClient && (
+                <div  style={{  position: 'absolute'      }}>    
+                <ReactPlayer
+                  className={styles.reactplayer1}
+                  url="/Recording.mp4"
+                  width="960px"
+                  height="762px"
+                  playing={true}
+                  loop={true}
+                  controls={false}
+                  muted={true}
+                  // style={{borderRadius: '100px'}}
+                />
+               </div>
+              )}
+               </div>
+
+
+               <div className={styles.laptopdiv1}>
+         <Image className={styles.laptop1} src="/macbookp.png" alt="laptop" width={364} height={222} />
+         {isClient && (
+                <div  style={{
+                 }}>    
+                <ReactPlayer
+          
+                  className={styles.reactplayer2}
+                  url="/Recording.mp4"
+                  width="369px"
+                  height="179px"
+                  playing={true}
+                  loop={true}
+                  controls={false}
+                  muted={true}
+                  
+                 
+                />
+               </div>
+              )}
+               </div>
+
+
+
+    </div>
+             
+
+    
   );
 };
 
