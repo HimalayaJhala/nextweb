@@ -19,17 +19,21 @@ const YourComponent = () => {
 
   return (
     
-
+    
+  <> 
+   <Head>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap" rel="stylesheet" />
+  <title> Himalaya Jhala portfolio</title>
+  <html lang="en" />
+</Head>
     <div className={styles.bodyContainer}>
      
       <CustomCursor/>
 
       <div className={styles.scrollBehavior}>
-        <Head>
-          <link rel="preconnect" href="https://fonts.gstatic.com" />
-          <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet" />
-          <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap" rel="stylesheet" />
-        </Head>
+      
 
 
         <div className={styles.b1}>
@@ -205,7 +209,7 @@ const YourComponent = () => {
       
     </div>
 
-
+    </>
   );
 };
 
