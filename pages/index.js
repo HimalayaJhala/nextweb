@@ -29,8 +29,6 @@ const YourComponent = () => {
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap" rel="stylesheet" />
-          <html lang="en" />
-          <title>Himalaya Jhala Website</title>
         </Head>
 
 
