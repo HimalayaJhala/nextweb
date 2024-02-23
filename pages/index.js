@@ -19,8 +19,9 @@ const YourComponent = () => {
 
   return (
 
-<div title='Himalaya Jhala website'>
+
     <div className={styles.bodyContainer}>
+      <title>Himalaya Jhala Website</title>
       <CustomCursor/>
 
       <div className={styles.scrollBehavior}>
@@ -204,7 +205,7 @@ const YourComponent = () => {
       
     </div>
 
-    </div>
+
   );
 };
 
