@@ -32,10 +32,10 @@
 /* globals.css */
 /* index.module.css */
  
-  html {
+ body {
     padding-left: 10px ;
     padding-right: 10px;
     padding-top: 0px;
-  
+    cursor: none;
   }
 

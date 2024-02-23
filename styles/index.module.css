@@ -217,7 +217,7 @@
         justify-content: center;
         left: auto;
         width: 45%;
-
+       
     }
 
     .social {
@@ -471,6 +471,7 @@
     height: 100px;
     padding-bottom: 50px;
     left: auto;
+    pointer-events: none;
 }
 
 .downloadResumeButton {
@@ -548,6 +549,62 @@
 
 
 
+.banner {
+    background-color: #f2f2f2;
+    padding: 50px;
+    overflow: hidden;
+    width: 100%;
+    height: 50px;
+  }
+  
+  .cards {
+    display: flex;
+    animation: marquee 5s linear infinite;
+  }
+  
+  .card {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    10% {
+      transform: translateX(-10px);
+    }
+    20% {
+      transform: translateX(-20px);
+    }
+    30% {
+      transform: translateX(-30px);
+    }
+     40% {
+      transform: translateX(-40px);
+    }
+    50% {
+      transform: translateX(-50px);
+    }
+    60% {
+      transform: translateX(-40px);
+    }
+     70% {
+      transform: translateX(-30px);
+    }
+    80% {
+      transform: translateX(-20px);
+    }
+    90% {
+      transform: translateX(-10px);
+    }
+     100% {
+      transform: translateX(0px);
+    }   
+}
+    
+    
 
 
 
@@ -572,9 +629,10 @@
 
 
 
+/* index.module.css */
 
-
-
-
-
-
+.fadeIn {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
+  

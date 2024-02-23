@@ -1,11 +1,14 @@
 
 import React, { useState, useEffect } from 'react';
 import styles from '/styles/index.module.css';
-import style from '/styles/social.module.css';
-import styleg from '/styles/globals.css';
+import stylb from '/styles/social.module.css';
+import stylec from '/styles/globals.css';
 import Image from 'next/image';
 import Head from 'next/head';
 import ReactPlayer from 'react-player';
+
+import CustomCursor from '../components/CustomCursor';
+
 
 const YourComponent = () => {
   const [isClient, setIsClient] = useState(false);
@@ -15,7 +18,11 @@ const YourComponent = () => {
   }, []);
 
   return (
+
+<div title='Himalaya Jhala website'>
     <div className={styles.bodyContainer}>
+      <CustomCursor/>
+
       <div className={styles.scrollBehavior}>
         <Head>
           <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -32,7 +39,7 @@ const YourComponent = () => {
           </div>
         </div>
 
-        <div className={style.centerpic}>
+        <div className={styles.centerpic}>
           <Image className={styles.pic} src="/download.jpeg" alt="profilepicture" width={500} height={500} />
         </div>
 
@@ -71,33 +78,20 @@ const YourComponent = () => {
 
         </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  {/* <div class="banner">
+    <div class="cards">
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+    </div>
+  </div> */}
 
 
         <div className={styles.Firstbox}>
@@ -210,7 +204,7 @@ const YourComponent = () => {
       
     </div>
 
-
+    </div>
   );
 };
 
