@@ -22,7 +22,7 @@ const YourComponent = () => {
     <Head>
     <html lang="en" />
     <title>Himalaya Jhala Website</title>
-  </Head>
+   </Head>
 
     <div className={styles.bodyContainer}>
      
