@@ -18,10 +18,14 @@ const YourComponent = () => {
   }, []);
 
   return (
-
+    <>
+    <Head>
+    <html lang="en" />
+    <title>Himalaya Jhala Website</title>
+  </Head>
 
     <div className={styles.bodyContainer}>
-      <title>Himalaya Jhala Website</title>
+     
       <CustomCursor/>
 
       <div className={styles.scrollBehavior}>
@@ -205,6 +209,7 @@ const YourComponent = () => {
       
     </div>
 
+</>
 
   );
 };
