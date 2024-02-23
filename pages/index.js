@@ -18,7 +18,7 @@ const YourComponent = () => {
   }, []);
 
   return (
-    <>
+    
 
     <div className={styles.bodyContainer}>
      
@@ -207,7 +207,6 @@ const YourComponent = () => {
       
     </div>
 
-</>
 
   );
 };
