@@ -4,7 +4,7 @@ import styles from '/styles/index.module.css';
 import stylb from '/styles/social.module.css';
 import stylec from '/styles/globals.css';
 import Image from 'next/image';
-import Head from 'next/head';
+import Head from 'next/head'; 
 import ReactPlayer from 'react-player';
 
 import CustomCursor from '../components/CustomCursor';
@@ -28,13 +28,12 @@ const YourComponent = () => {
   <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap" rel="stylesheet" />
   <title> Himalaya Jhala portfolio</title>
-  <html lang="en" />
   </Head>
       <CustomCursor/>
 
       <div className={styles.scrollBehavior}>
       
-
+.
 
         <div className={styles.b1}>
           <div className={styles.heading}>
