@@ -28,6 +28,7 @@ const YourComponent = () => {
   <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap" rel="stylesheet" />
   <title> Himalaya Jhala portfolio</title>
+  <meta name = "Himalaya Jhala Portfolio website" content=" Web Developer: Explore the portfolio of Himalaya Jhala, showcasing his expertise in crafting user-friendly and impactful web experiences using JavaScript, HTML, CSS, React,React Native  Next.js, and Node.js and strong UI/UX design skills." />
   </Head>
       <CustomCursor/>
 
@@ -44,7 +45,7 @@ const YourComponent = () => {
         </div>
 
         <div className={styles.centerpic}>
-          <Image className={styles.pic} src="/download.jpeg" alt="profilepicture" width={500} height={500} />
+           <Image className={styles.pic} src="/download.jpeg" alt="profilepicture" width={500} height={500} /> 
         </div>
 
 
