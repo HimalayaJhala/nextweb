@@ -19,9 +19,6 @@ const YourComponent = () => {
 
   return (
     
-    
-  
-  
     <div className={styles.bodyContainer}>
       <Head>
   <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -34,8 +31,6 @@ const YourComponent = () => {
 
       <div className={styles.scrollBehavior}>
       
-.
-
         <div className={styles.b1}>
           <div className={styles.heading}>
             <h1 className={styles.we_belive}>
@@ -45,7 +40,19 @@ const YourComponent = () => {
         </div>
 
         <div className={styles.centerpic}>
-           <Image className={styles.pic} src="/download.jpeg" alt="profilepicture" width={500} height={500} /> 
+           {/* <Image className={styles.pic} 
+           src="/download.jpeg" 
+           alt="profilepicture" 
+           width={500} 
+           height={500} />  */}
+
+           <Image
+            className={styles.pic}
+            src="/download.jpeg"
+            alt="Profile Picture"
+            width={500}
+            height={500}
+           />
         </div>
 
 
