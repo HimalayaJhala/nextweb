@@ -37,8 +37,8 @@
 
 .heading {
     width: 55%;
-    height: auto;
-    justify-content: center;
+    /* height: auto; */
+    /* justify-content: center; */
     color: rgb(0, 0, 0, .85);
     background-color: white;
     /* border: 2px solid rgb(255, 0, 0); */
@@ -48,12 +48,12 @@
     margin-right: auto;
     /* -webkit-box-flex: 1; */
     /* flex-grow: 1; */
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    -webkit-box-pack: center;
+    /* display: flex; */
+    /* position: relative; */
+    /* flex-direction: column; */
+    /* -webkit-box-pack: center; */
 
-    font-size: 5rem;
+     font-size: 5rem; 
     line-height: 11rem;
     letter-spacing: -0.06em;
     text-transform: uppercase;
@@ -323,32 +323,34 @@
         display: flex;
         align-items: center;
         justify-content: center;
-       position: relative;
+        position: relative;
+    
     }
 
 
     .heading {
         /* height: auto; */
-        justify-content: center;
-        color: rgb(0, 0, 0, .85);
-        background-color: white;
+        /* justify-content: center; */
+        left :-10px;
+        color: rgba(0, 0, 0, 0.85);
+        background-color: rgb(255, 255, 255);
         /* border: 2px solid rgb(255, 0, 0); */
-        padding-top: 80px;
-        padding-bottom: 80px;
-        margin-left: auto;
-        margin-right: auto;
+        /* padding-top: 80px; */
+        /* padding-bottom: 80px; */
+        /* margin-left: auto; */
+        /* margin-right: auto; */
         /* -webkit-box-flex: 1; */
         /* flex-grow: 1; */
-        display: flex;
-        position: relative;
-        flex-direction: column;
-        -webkit-box-pack: center;
+        /* display: flex; */
+         position: relative;
+        /* flex-direction: column; */
+        /* -webkit-box-pack: center; */
 
-        font-size: 2rem;
-        line-height: 9rem;
-        letter-spacing: -0.06em;
-        text-transform: uppercase;
-        text-align: center;
+        /* font-size: 2rem; */
+        /* line-height: 9rem; */
+        /* letter-spacing: -0.06em; */
+        /* text-transform: uppercase; */
+        /* text-align: center; */
 
     }
 

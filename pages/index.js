@@ -30,7 +30,7 @@ const YourComponent = () => {
      </Head>
       <CustomCursor/>
 
-      <div className={styles.scrollBehavior}>
+       {/* <div className={styles.scrollBehavior}>  */}
       
         <div className={styles.b1}>
           <div className={styles.heading}>
@@ -210,7 +210,7 @@ const YourComponent = () => {
       </div>
 
       
-    </div>
+  /* </div> */
 
     
   );
