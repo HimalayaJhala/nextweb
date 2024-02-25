@@ -75,14 +75,27 @@
     font-family: 'Tilt Warp', sans-serif;
 }
 
-.heading1,
+.heading1
+    {
+        /* desktop */
+        font-family: 'Bodoni Moda', serif;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        font-size: 2.5em;
+        text-align: justify;
+    }
+
 .heading2 {
     /* desktop */
     font-family: 'Bodoni Moda', serif;
-    width: 100%;
+    width: 90%;
+   
     display: flex;
     position: relative;
     font-size: 2.5em;
+    text-align: justify;
 }
 
 .para {
@@ -92,7 +105,8 @@
 .para1 {
     position: relative;
     margin-top: -300px;
-
+    display: flex;
+    justify-content: center;
 }
 
 .centrepic {
@@ -170,6 +184,11 @@
         left: 20%;
     }
 
+    .Firstbox{
+        width: 100px;
+        height: auto;
+    }
+
     .heading {
         width: 20%;
         height: 50%;
@@ -180,7 +199,7 @@
     .b1
      {
         position: relative;
-        left: -40%;
+        left: -35%;
         height: 110vh;
         display: flex;
         align-items: center;
