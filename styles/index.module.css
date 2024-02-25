@@ -24,9 +24,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    perspective: -10px;
-
-
 }
 
 .Firstbox {
@@ -180,7 +177,8 @@
         z-index: 2;
     }
 
-    .b1 {
+    .b1
+     {
         position: relative;
         left: -40%;
         height: 110vh;
@@ -193,24 +191,22 @@
     .pic {
         position: relative;
         /* bottom : 10px; */
-        width: 350px;
-        height: 350px;
+        width: 90%;
+        height: 50%;
 
     }
 
     .iphone {
         position: absolute;
-
     }
 
     .playerwrapper1 {
         display: block;
+       
     }
 
+   
 
-    .b1 {
-        padding-bottom: 20px;
-    }
 
     .downloadResumeButton {
         display: flex;
@@ -322,16 +318,16 @@
 
 
     .b1 {
+        padding-bottom: 20px;
         height: 95vh;
         display: flex;
         align-items: center;
         justify-content: center;
-        perspective: -10px;
+       position: relative;
     }
 
 
     .heading {
-
         /* height: auto; */
         justify-content: center;
         color: rgb(0, 0, 0, .85);
