@@ -64,10 +64,10 @@
     display: flex;
     justify-content: space-between;
 }
-
+/* 
 .playerwrapper {
     display: none;
-}
+} */
 
 /* .heading {
     width: 55%;
@@ -214,10 +214,10 @@
         position: relative;
     }
 
-    .Firstbox{
+    /* .Firstbox{
         width: 100px;
         height: auto;
-    }
+    } */
 
     .heading {
         width: 20%;
@@ -330,7 +330,7 @@
         position: absolute;
         justify-items: center;
 
-        width: 100%;
+        width: 90%;
         justify-content: center;
 
         margin: 0 auto;
@@ -345,7 +345,7 @@
         position: absolute;
         justify-items: center;
 
-        width: 100%;
+        width: 90%;
         justify-content: center;
 
         margin: 0 auto;

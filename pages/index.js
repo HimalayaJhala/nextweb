@@ -38,22 +38,20 @@ const YourComponent = () => {
               WE BELIEVE DEVELOPER SHAPE THE <span className={styles.future}>FUTURE </span>
             </h1>
           </div>
+
         </div> */}
-<div className={styles.newbox}>
-        <p className={styles.h1}> WE </p>
-        <p className={styles.h2}> BELIEVE</p>
-        <p className={styles.h3}> DEVELOPER</p>
-        <p className={styles.h4}> SHAPE</p>
-        <p className={styles.h5}> THE</p>
-        <p className={styles.h6}> FUTURE</p>
-</div>
+                {/* Heading */}
+        <div className={styles.newbox}>
+                <p className={styles.h1}> WE </p>
+                <p className={styles.h2}> BELIEVE</p>
+                <p className={styles.h3}> DEVELOPER</p>
+                <p className={styles.h4}> SHAPE</p>
+                <p className={styles.h5}> THE</p>
+                <p className={styles.h6}> FUTURE</p>
+        </div>
 
-
-
-
-
+               {/* Profilepic */}
         <div className={styles.centerpic}>
-      
            <Image
             className={styles.pic}
             src="/download.jpeg"
@@ -63,7 +61,7 @@ const YourComponent = () => {
            />
         </div>
 
-
+                {/* Downloadbutton */}
         <div className={styles.buttond}>
           <a href="/path-to-your-resume.pdf" download="Your_Resume_Name.pdf" className={styles.downloadResumeButton}>
             Download Resume
@@ -71,11 +69,9 @@ const YourComponent = () => {
         </div>
 
 
-
+          {/* SocialLink */}
         <div className={styles.socialc}>
           <div className={styles.social}>
-
-
             <div className={styles.socials1}>
               <a href="https://www.linkedin.com/in/himalaya-jhala-879542231/">
                 <Image src="/linkedin.png" alt="leetcode" width={50} height={50} />
@@ -98,24 +94,9 @@ const YourComponent = () => {
 
         </div>
 
-  {/* <div class="banner">
-    <div class="cards">
-      <div class="card"></div>
-      <div class="card"></div>
-      <div class="card"></div>
-      <div class="card"></div>
-      <div class="card"></div>
-      <div class="card"></div>
-      <div class="card"></div>
-      <div class="card"></div>
-      <div class="card"></div>
-      <div class="card"></div>
-    </div>
-  </div> */}
-
 
         <div className={styles.Firstbox}>
-          <div className={styles.playerwrapper}>
+          {/* <div className={styles.playerwrapper}>
             <Image className={styles.iphone} src="/iPhone15.png" alt="phone" width={435} height={790} />
             {isClient && (
               <div style={{ width: '445px', height: '780px', position: 'relative', zIndex: 0, overflow: 'hidden', top: '37px', borderradius: '150px' }}>
@@ -131,18 +112,18 @@ const YourComponent = () => {
                 />
               </div>
             )}
-          </div>
+          </div> */}
 
 
           <div className={styles.playerwrapper1}>
-            <Image className={styles.iphone} src="/iPhone15.png" alt="phone" width={365} height={670} />
+            <Image className={styles.iphone} src="/iPhone15.png" alt="phone" width={345} height={650} />
             {isClient && (
-              <div style={{ width: '370px', height: '620px', position: 'relative', overflow: 'hidden', top: '32px', borderradius: '1500px' }}>
+              <div style={{ width: '350px', height: '590px', position: 'relative', overflow: 'hidden', top: '32px', borderradius: '1500px' }}>
                 <ReactPlayer
                   className="react-player"
                   url="/Screen1.mp4"
-                  width="365px"
-                  height="610px"
+                  width="355px"
+                  height="590px"
                   playing={true}
                   loop={true}
                   controls={false}
@@ -219,10 +200,10 @@ const YourComponent = () => {
           </p>
         </div>
 
-      </div>
+       </div>
 
-      
-  /* </div> */
+       
+       // </div> 
 
     
   );
