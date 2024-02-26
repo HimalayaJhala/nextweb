@@ -143,17 +143,14 @@
     justify-content: center;
 }
 
-.centrepic {
-    position: relative;
-    left: 10%;
-}
+
 
 .pic {
     position: relative;
     display: flex;
     border-radius: 50%;
     align-items: center;
-    margin: 0 auto;
+    margin: 100px auto;
     margin-bottom: 100px;
     z-index: 1;
 }
@@ -213,9 +210,8 @@
 /* @media (max-width: 768px) { */
     @media only screen and (max-width: 768px){
     /*mobile */
-    .centrepic {
+    .centerpic {
         position: relative;
-        left: 20%;
     }
 
     .Firstbox{
@@ -243,7 +239,6 @@
 
     .pic {
         position: relative;
-        /* bottom : 10px; */
         width: 90%;
         height: 50%;
 

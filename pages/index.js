@@ -50,6 +50,8 @@ const YourComponent = () => {
 
 
 
+
+
         <div className={styles.centerpic}>
       
            <Image
