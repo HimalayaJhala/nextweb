@@ -116,7 +116,7 @@ const YourComponent = () => {
 
 
           <div className={styles.playerwrapper1}>
-            <Image className={styles.iphone} src="/iPhone15.png" alt="phone" width={345} height={650} />
+            <Image className={styles.iphone} src="/iPhone15.png" alt="phone" width={340} height={650} />
             {isClient && (
               <div style={{ width: '350px', height: '590px', position: 'relative', overflow: 'hidden', top: '32px', borderradius: '1500px' }}>
                 <ReactPlayer
