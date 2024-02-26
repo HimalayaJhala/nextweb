@@ -162,6 +162,13 @@
     z-index: 1;
 }
 
+
+.Rplayer{
+    display: flex;
+    border-radius: 100px;
+    width: 375px;
+}
+
 /* .playerwrapper{
     position: relative;
     display: block;
@@ -492,6 +499,12 @@
   .laptopdiv{
     display: none;
   }
+
+
+.Rplayer{
+    display: flex;
+    border-radius: 80px;
+}
 }
 
 
@@ -655,7 +668,7 @@
     margin-right: 10px;
   }
   
-  @keyframes marquee {
+  /* @keyframes marquee {
     0% {
       transform: translateX(0);
     }
@@ -689,14 +702,17 @@
      100% {
       transform: translateX(0px);
     }   
-}
+} */
     
 
 
 
 
 
-
+.Rplayer{
+    display: flex;
+    border-radius: 80px;
+}
 
 
 

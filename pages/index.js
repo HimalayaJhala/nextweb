@@ -114,9 +114,9 @@ const YourComponent = () => {
 
 
           <div className={styles.playerwrapper1}>
-            <Image className={styles.iphone} src="/iPhone15.png" alt="phone" width={340} height={650} />
+            <Image className={styles.iphone} src="/iPhone15.png" alt="phone" width={350} height={650} />
               {isClient && (
-               <div style={{ width: '350px', height: '590px', position: 'relative', overflow: 'hidden', top: '32px', borderradius: '1500px' }}>
+               <div className={styles.Rplayer} style={{ width: '350px', height: '590px', position: 'relative', overflow: 'hidden', top: '32px' }}>
                 <ReactPlayer
                   className="react-player"
                   url="/Screen1.mp4"
@@ -126,8 +126,6 @@ const YourComponent = () => {
                   loop={true}
                   controls={false}
                   muted={true}
-                  style={{ borderRadius: '100px' }}
-
                 />
               </div>
             )}
@@ -170,8 +168,7 @@ const YourComponent = () => {
         <div className={styles.laptopdiv1}>
           <Image className={styles.laptop1} src="/macbookp.png" alt="laptop" width={380} height={242} />
           {isClient && (
-            <div style={{
-            }}>
+            <div style={{ overflow: 'hidden'}}>
               <ReactPlayer
 
                 className={styles.reactplayer2}
@@ -183,6 +180,7 @@ const YourComponent = () => {
                 controls={false}
                 muted={true}
                 playsInline 
+                // overflow={hidden}
               />
             </div>
           )}
@@ -199,7 +197,7 @@ const YourComponent = () => {
           </p>
         </div>
 
-      </di v>
+      </div>
       </div>
      
 </div>
