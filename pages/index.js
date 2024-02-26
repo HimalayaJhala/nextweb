@@ -182,6 +182,7 @@ const YourComponent = () => {
                 loop={true}
                 controls={false}
                 muted={true}
+                playsInline 
               />
             </div>
           )}
@@ -198,7 +199,7 @@ const YourComponent = () => {
           </p>
         </div>
 
-      </div>
+      </di v>
       </div>
      
 </div>
