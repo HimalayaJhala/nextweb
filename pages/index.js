@@ -19,9 +19,9 @@ const YourComponent = () => {
 
   return (
     
-    <div className={styles.bodyContainer} >
+    <div className={styles.bodyContainer}>
       <Head>
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com"/>
   <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap" rel="stylesheet" />
   <title> Himalaya Jhala portfolio</title>
@@ -31,14 +31,12 @@ const YourComponent = () => {
       {/* <CustomCursor/> */}
 
         <div className={styles.scrollBehavior}>  
-      
         {/* <div className={styles.b1}>
           <div className={styles.heading}>
             <h1 className={styles.we_belive}>
               WE BELIEVE DEVELOPER SHAPE THE <span className={styles.future}>FUTURE </span>
             </h1>
           </div>
-
         </div> */}
                 {/* Heading */}
         <div className={styles.newbox}>
@@ -117,8 +115,8 @@ const YourComponent = () => {
 
           <div className={styles.playerwrapper1}>
             <Image className={styles.iphone} src="/iPhone15.png" alt="phone" width={340} height={650} />
-            {isClient && (
-              <div style={{ width: '350px', height: '590px', position: 'relative', overflow: 'hidden', top: '32px', borderradius: '1500px' }}>
+              {isClient && (
+               <div style={{ width: '350px', height: '590px', position: 'relative', overflow: 'hidden', top: '32px', borderradius: '1500px' }}>
                 <ReactPlayer
                   className="react-player"
                   url="/Screen1.mp4"
@@ -148,7 +146,7 @@ const YourComponent = () => {
           </div>
         </div>
 
-
+                <div className={styles.laptopmove}>
         <div className={styles.laptopdiv}>
           <Image className={styles.laptop} src="/macbookp.png" alt="laptop" width={1284} height={792} />
           {isClient && (
@@ -201,7 +199,7 @@ const YourComponent = () => {
         </div>
 
       </div>
-
+      </div>
      
 </div>
     
