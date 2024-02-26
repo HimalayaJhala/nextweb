@@ -18,8 +18,8 @@ const YourComponent = () => {
   }, []);
 
   return (
-    <>
-   {/* <div className={styles.bodyContainer} > */}
+    
+    <div className={styles.bodyContainer} >
       <Head>
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet" />
@@ -30,7 +30,7 @@ const YourComponent = () => {
      </Head>
       {/* <CustomCursor/> */}
 
-       {/* <div className={styles.scrollBehavior}>  */}
+        <div className={styles.scrollBehavior}>  
       
         {/* <div className={styles.b1}>
           <div className={styles.heading}>
@@ -200,10 +200,10 @@ const YourComponent = () => {
           </p>
         </div>
 
-      </>
+      </div>
 
      
-
+</div>
     
   );
 };
