@@ -32,13 +32,23 @@ const YourComponent = () => {
 
        {/* <div className={styles.scrollBehavior}>  */}
       
-        <div className={styles.b1}>
+        {/* <div className={styles.b1}>
           <div className={styles.heading}>
             <h1 className={styles.we_belive}>
               WE BELIEVE DEVELOPER SHAPE THE <span className={styles.future}>FUTURE </span>
             </h1>
           </div>
-        </div>
+        </div> */}
+<div className={styles.newbox}>
+        <p className={styles.h1}> WE </p>
+        <p className={styles.h2}> BELIEVE</p>
+        <p className={styles.h3}> DEVELOPER</p>
+        <p className={styles.h4}> SHAPE</p>
+        <p className={styles.h5}> THE</p>
+        <p className={styles.h6}> FUTURE</p>
+</div>
+
+
 
         <div className={styles.centerpic}>
       
