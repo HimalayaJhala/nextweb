@@ -170,7 +170,7 @@ const YourComponent = () => {
 
 
         <div className={styles.laptopdiv1}>
-          <Image className={styles.laptop1} src="/macbookp.png" alt="laptop" width={394} height={252} />
+          <Image className={styles.laptop1} src="/macbookp.png" alt="laptop" width={370} height={252} />
           {isClient && (
             <div style={{
             }}>
@@ -178,7 +178,7 @@ const YourComponent = () => {
 
                 className={styles.reactplayer2}
                 url="/Recording.mp4"
-                width="399px"
+                width="330px"
                 height="194px"
                 playing={true}
                 loop={true}
