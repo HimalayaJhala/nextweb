@@ -35,7 +35,7 @@ const YourComponent = () => {
       const mobileTl = gsap.timeline({ yoyo: true  });
      
       mobileTl.to(imageRef.current, { yoyo: true, y: 200, duration: 3  ,delay: 1.5, top : 100 });
-      const para = gsap.to(paraRef.current, { yoyo: true, y : -100 ,duration: 3, delay: 1.5, opacity: 0.9 } , 0.5);
+      const para = gsap.to(paraRef.current, { yoyo: true, y : -100 ,duration: 3, delay: 1.5, opacity: 0.9 } , 2.5);
       // Pause the main timeline (tl) before playing mobileTl
       tl.pause();
       mobileTl.play();
