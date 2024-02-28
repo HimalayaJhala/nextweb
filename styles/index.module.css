@@ -144,24 +144,45 @@
     display: flex;
     justify-content: center;
 }
-
-
+.centerpic{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 500px;
+}
 
 .pic {
-    position: relative;
+    /* position: relative;
     display: flex;
     border-radius: 50%;
     align-items: center;
     margin: 100px auto;
     margin-bottom: 100px;
-    z-index: 1;
-}
+    z-index: 1; old before layering animation
+ */
 
+
+    height: auto;
+    width: auto;
+    position: absolute;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    /* margin: 100px auto; */
+    /* margin-bottom: 100px; */
+    z-index: 1;
+    justify-items: center;
+    justify-content: center;
+}
+.paragraph{
+font-size: 1rem;
+}
 .iphone {
     position: absolute;
     z-index: 1;
 }
 
+  
 
 .Rplayer{
     display: flex;
@@ -222,8 +243,21 @@
     .bodyContainer{
         height: 3500px;
     }
+    .paragraph{
+        width: 300px;
+        height: auto;
+        text-align:center;
+        font-size: 0.1rem;
+        max-height: 500px;
+
+        position: absolute;
+        opacity: 1;
+    }
     .centerpic {
         position: relative;
+        justify-content: center;
+        align-items: center;
+        margin-bottom : 125px;
     }
 
     /* .Firstbox{
@@ -250,9 +284,9 @@
     } */
 
     .pic {
-        position: relative;
-        width: 90%;
-        height: 50%;
+        position:absolute;
+        width: 300px;
+        height: 300px;
 
     }
 

@@ -1,13 +1,15 @@
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect , useRef } from 'react';
 import styles from '/styles/index.module.css';
 import stylb from '/styles/social.module.css';
 import stylec from '/styles/globals.css';
 import Image from 'next/image';
 import Head from 'next/head'; 
 import ReactPlayer from 'react-player';
+import gsap from 'gsap';
 
 import CustomCursor from '../components/CustomCursor';
+import Loading from '../components/Loading';
 
 
 const YourComponent = () => {
@@ -17,8 +19,38 @@ const YourComponent = () => {
     setIsClient(true);
   }, []);
 
+
+
+
+  // Profile pic and paragraph
+  const imageRef = useRef(null);
+  const paraRef =  useRef(null);
+  useEffect(() => {
+    const tl = gsap.to(imageRef.current, { yoyo: true, x: 400, duration: 4 });
+   const para = gsap.to(paraRef.current, { yoyo: true, duration: 8, opacity: 1 });
+  
+    const isMobile = window.matchMedia('(max-width: 768px)').matches;
+  
+    if (isMobile) {
+      // Create mobile-specific timeline
+      const mobileTl = gsap.timeline({ yoyo: true });
+      mobileTl.to(imageRef.current, { yoyo: true, y: 200, duration: 4  , opacity :1 , top : 100 });
+  
+      // Pause the main timeline (tl) before playing mobileTl
+      tl.pause();
+      mobileTl.play();
+    } else {
+      // Play the main timeline for desktop
+      tl.play();
+    }
+  
+    // Cleanup function to ensure proper lifecycle
+    return () => tl.kill();// Stop main timeline when component unmounts
+  }, []);
+  
+
+   
   return (
-    
     <div className={styles.bodyContainer}>
       <Head>
   <link rel="preconnect" href="https://fonts.gstatic.com"/>
@@ -29,7 +61,6 @@ const YourComponent = () => {
   <meta name="theme-color" content="WHITE"/>
      </Head>
       {/* <CustomCursor/> */}
-
         <div className={styles.scrollBehavior}>  
         {/* <div className={styles.b1}>
           <div className={styles.heading}>
@@ -38,7 +69,11 @@ const YourComponent = () => {
             </h1>
           </div>
         </div> */}
+
+        
                 {/* Heading */}
+
+                
         <div className={styles.newbox}>
                 <p className={styles.h1}> WE </p>
                 <p className={styles.h2}> BELIEVE</p>
@@ -51,13 +86,19 @@ const YourComponent = () => {
                {/* Profilepic */}
         <div className={styles.centerpic}>
            <Image
+           ref = {imageRef}
             className={styles.pic}
             src="/download.jpeg"
             alt="Profile Picture"
             width={500}
             height={500}
            />
+            <p ref={paraRef} className={styles.paragraph} style={{ opacity: 0 , position: "relative", maxWidth: 500  }} >
+              This paragraph appears when the image moves. This paragraph appears when the image moves. This paragraph appears when the image moves. This paragraph appears when the image moves. This paragraph appears when the image moves. This paragraph appears when the image moves. This paragraph appears when the image moves. This paragraph appears when the image moves.</p>
         </div>
+
+
+
 
                 {/* Downloadbutton */}
         <div className={styles.buttond}>
@@ -94,23 +135,6 @@ const YourComponent = () => {
 
 
         <div className={styles.Firstbox}>
-          {/* <div className={styles.playerwrapper}>
-            <Image className={styles.iphone} src="/iPhone15.png" alt="phone" width={435} height={790} />
-            {isClient && (
-              <div style={{ width: '445px', height: '780px', position: 'relative', zIndex: 0, overflow: 'hidden', top: '37px', borderradius: '150px' }}>
-                <ReactPlayer
-                  className="react-player"
-                  url="/Screen1.mp4"
-                  width="435px"
-                  height="720px"
-                  playing={true}
-                  loop={true}
-                  controls={false}
-                  muted={true}
-                />
-              </div>
-            )}
-          </div> */}
 
 
           <div className={styles.playerwrapper1}>
