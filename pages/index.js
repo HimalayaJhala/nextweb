@@ -26,7 +26,7 @@ const YourComponent = () => {
   const paraRef =  useRef(null);
   useEffect(() => {
     const tl = gsap.to(imageRef.current, { yoyo: true, x: 400, duration: 4 });
-    const para = gsap.to(paraRef.current, { yoyo: true, duration: 8, opacity: 1 });
+    const para = gsap.to(paraRef.current, { yoyo: true, duration: 8, opacity: 0.9 });
   
     const isMobile = window.matchMedia('(max-width: 768px)').matches;
   
@@ -34,8 +34,8 @@ const YourComponent = () => {
       // Create mobile-specific timeline
       const mobileTl = gsap.timeline({ yoyo: true  });
      
-      mobileTl.to(imageRef.current, { yoyo: true, y: 200, duration: 9  ,delay: 1.5, opacity :1 , top : 100 });
-      const para = gsap.to(paraRef.current, { yoyo: true, y : -100 ,duration: 5, delay: 1.5, opacity: 1 });
+      mobileTl.to(imageRef.current, { yoyo: true, y: 200, duration: 9  ,delay: 2.5, top : 100 });
+      const para = gsap.to(paraRef.current, { yoyo: true, y : -100 ,duration: 5, delay: 1.5, opacity: 0.9 });
       // Pause the main timeline (tl) before playing mobileTl
       tl.pause();
       mobileTl.play();
