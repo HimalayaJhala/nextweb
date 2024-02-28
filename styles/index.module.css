@@ -257,7 +257,7 @@ font-size: 1rem;
         position: relative;
         justify-content: center;
         align-items: center;
-        margin-bottom : 125px;
+        margin-bottom : 175px;
     }
 
     /* .Firstbox{
@@ -285,8 +285,8 @@ font-size: 1rem;
 
     .pic {
         position:absolute;
-        width: 300px;
-        height: 300px;
+        width: 350px;
+        height: 350px;
 
     }
 
