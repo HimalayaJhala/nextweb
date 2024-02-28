@@ -7,9 +7,8 @@ import Image from 'next/image';
 import Head from 'next/head'; 
 import ReactPlayer from 'react-player';
 import gsap from 'gsap';
-
 import CustomCursor from '../components/CustomCursor';
-import Loading from '../components/Loading';
+
 
 
 const YourComponent = () => {
@@ -27,7 +26,7 @@ const YourComponent = () => {
   const paraRef =  useRef(null);
   useEffect(() => {
     const tl = gsap.to(imageRef.current, { yoyo: true, x: 400, duration: 4 });
-   const para = gsap.to(paraRef.current, { yoyo: true, duration: 8, opacity: 1 });
+    const para = gsap.to(paraRef.current, { yoyo: true, duration: 8, opacity: 1 });
   
     const isMobile = window.matchMedia('(max-width: 768px)').matches;
   
